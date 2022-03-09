@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css">
+        <title>BTC Calculator</title>
+    </head>
+  
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="https://s2.coinmarketcap.com/static/img/coins/32x32/1.png" alt="Bitcoin"
+                    class="header__logo">
+                <h1 class="header__heading">Bitcoin Calculator</h1>
+            </div>
+            <div class="price">
+                <div class="price__bought">
+                    <label class="price__label">BTC/USD when bought</label>
+                    <input type="number" class="price__input price__input__bought"placeholder="Price in USD">
+                </div>
+                <div class="price__now">
+                    <label class="price__label">BTC/USD today</label>
+                    <input type="number" class="price__input price__input__now" placeholder="Price in USD">
+                </div>
+            </div>
+
+            <div class="investment">
+                <label class="investment__text">How many BTC did you buy?</label>
+                <input type="number" class="investment__btc" placeholder="Amount of BTC">
+                <button class="investment__btn">OK</button>
+            </div>
+
+            <p class="result">
+                Please fill all fields to see results.
+            </p>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+<html>
